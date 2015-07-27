@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F14A6C1B66145E00775A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F14A6B1B66145E00775A96 /* main.m */; };
+		00F14A751B66145E00775A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F14A731B66145E00775A96 /* Main.storyboard */; };
+		00F14A7A1B66145E00775A96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F14A781B66145E00775A96 /* LaunchScreen.xib */; };
+		00F14A981B661EA600775A96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F14A971B661EA600775A96 /* Images.xcassets */; };
+		00F14AA11B661ED700775A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F14A9B1B661ED700775A96 /* AppDelegate.m */; };
+		00F14AA21B661ED700775A96 /* BrightnessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F14A9E1B661ED700775A96 /* BrightnessHelper.m */; };
+		00F14AA31B661ED700775A96 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F14AA01B661ED700775A96 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F14A661B66145E00775A96 /* Brightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F14A6A1B66145E00775A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F14A6B1B66145E00775A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00F14A741B66145E00775A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F14A791B66145E00775A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00F14A971B661EA600775A96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00F14A9A1B661ED700775A96 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00F14A9B1B661ED700775A96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00F14A9D1B661ED700775A96 /* BrightnessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessHelper.h; sourceTree = "<group>"; };
+		00F14A9E1B661ED700775A96 /* BrightnessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessHelper.m; sourceTree = "<group>"; };
+		00F14A9F1B661ED700775A96 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		00F14AA01B661ED700775A96 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F14A631B66145E00775A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F14A5D1B66145E00775A96 = {
+			isa = PBXGroup;
+			children = (
+				00F14A681B66145E00775A96 /* Brightness */,
+				00F14A671B66145E00775A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F14A671B66145E00775A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A661B66145E00775A96 /* Brightness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F14A681B66145E00775A96 /* Brightness */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A991B661ED700775A96 /* Classes */,
+				00F14A961B661EA600775A96 /* Resources */,
+				00F14A691B66145E00775A96 /* Supporting Files */,
+			);
+			path = Brightness;
+			sourceTree = "<group>";
+		};
+		00F14A691B66145E00775A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A6A1B66145E00775A96 /* Info.plist */,
+				00F14A6B1B66145E00775A96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F14A961B661EA600775A96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A731B66145E00775A96 /* Main.storyboard */,
+				00F14A781B66145E00775A96 /* LaunchScreen.xib */,
+				00F14A971B661EA600775A96 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00F14A991B661ED700775A96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A9C1B661ED700775A96 /* BrightnessHelper */,
+				00F14A9A1B661ED700775A96 /* AppDelegate.h */,
+				00F14A9B1B661ED700775A96 /* AppDelegate.m */,
+				00F14A9F1B661ED700775A96 /* DemoViewController.h */,
+				00F14AA01B661ED700775A96 /* DemoViewController.m */,
+			);
+			name = Classes;
+			path = Resources/Classes;
+			sourceTree = "<group>";
+		};
+		00F14A9C1B661ED700775A96 /* BrightnessHelper */ = {
+			isa = PBXGroup;
+			children = (
+				00F14A9D1B661ED700775A96 /* BrightnessHelper.h */,
+				00F14A9E1B661ED700775A96 /* BrightnessHelper.m */,
+			);
+			path = BrightnessHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F14A651B66145E00775A96 /* Brightness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F14A891B66145E00775A96 /* Build configuration list for PBXNativeTarget "Brightness" */;
+			buildPhases = (
+				00F14A621B66145E00775A96 /* Sources */,
+				00F14A631B66145E00775A96 /* Frameworks */,
+				00F14A641B66145E00775A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brightness;
+			productName = Brightness;
+			productReference = 00F14A661B66145E00775A96 /* Brightness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F14A5E1B66145E00775A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Rethib;
+				TargetAttributes = {
+					00F14A651B66145E00775A96 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 00F14A611B66145E00775A96 /* Build configuration list for PBXProject "Brightness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F14A5D1B66145E00775A96;
+			productRefGroup = 00F14A671B66145E00775A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F14A651B66145E00775A96 /* Brightness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F14A641B66145E00775A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F14A751B66145E00775A96 /* Main.storyboard in Resources */,
+				00F14A981B661EA600775A96 /* Images.xcassets in Resources */,
+				00F14A7A1B66145E00775A96 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F14A621B66145E00775A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F14AA11B661ED700775A96 /* AppDelegate.m in Sources */,
+				00F14A6C1B66145E00775A96 /* main.m in Sources */,
+				00F14AA21B661ED700775A96 /* BrightnessHelper.m in Sources */,
+				00F14AA31B661ED700775A96 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F14A731B66145E00775A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F14A741B66145E00775A96 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		00F14A781B66145E00775A96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F14A791B66145E00775A96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F14A871B66145E00775A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00F14A881B66145E00775A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F14A8A1B66145E00775A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00F14A8B1B66145E00775A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F14A611B66145E00775A96 /* Build configuration list for PBXProject "Brightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F14A871B66145E00775A96 /* Debug */,
+				00F14A881B66145E00775A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F14A891B66145E00775A96 /* Build configuration list for PBXNativeTarget "Brightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F14A8A1B66145E00775A96 /* Debug */,
+				00F14A8B1B66145E00775A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F14A5E1B66145E00775A96 /* Project object */;
+}
